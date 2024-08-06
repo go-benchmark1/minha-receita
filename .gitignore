@@ -1,0 +1,6 @@
+.env
+bin/
+data/
+minha-receita
+site/
+~/data/.gitkeep

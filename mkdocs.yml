@@ -1,0 +1,29 @@
+site_name: Minha Receita
+repo_url: https://github.com/cuducos/minha-receita
+edit_uri: edit/main/docs/
+theme:
+  language: pt
+  name: material
+  logo: favicon.svg
+  favicon: favicon.svg
+  palette:
+    primary: deep purple
+    accent: purple
+  features:
+    - navigation.instant
+    - toc.integrate
+  icon:
+    repo: fontawesome/brands/github
+nav:
+  - index.md
+  - como-usar.md
+  - instalacao.md
+  - servidor.md
+  - faq.md
+  - sobre-os-dados.md
+plugins:
+  - search
+  - minify:
+      minify_html: true
+      htmlmin_opts:
+          remove_comments: true
